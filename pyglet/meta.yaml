@@ -1,11 +1,11 @@
+
 package:
   name: pyglet1.2
-  version: "1.2alpha1"
+  version: 1.2.4
 
 source:
-    fn: pyglet-1.2alpha1.zip
-    url: https://pyglet.googlecode.com/files/pyglet-1.2alpha1.zip
-    md5: 637c74d33cf8c76b60e9e68dca6a0795
+  hg_url: https://bitbucket.org/pyglet/pyglet
+  hg_tag: pyglet-1.2.4
 
 build:
     number: 1
@@ -25,5 +25,5 @@ test:
     #     - tests/test.py
 
 about:
-    home: http://www.pyglet.org/
-    summary: a cross-platform windowing and multimedia library for Python.
+  home: https://bitbucket.org/pyglet/pyglet/wiki/Home
+  license: BSD
